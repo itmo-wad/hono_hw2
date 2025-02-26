@@ -42,7 +42,7 @@ A virtual environment (`venv`) is an isolated environment where all the dependen
    Windows: venv\Scripts\activate
    macOS/Linux: source venv/bin/activate
 
-### Step 2: Install Dependencies![login1](https://github.com/user-attachments/assets/4e23a8c7-7756-45e3-a5d5-1d8650ce6809)
+### Step 2: Install Dependencies
 
 
 1. Navigate to the project directory:
@@ -77,26 +77,33 @@ my-application/
 
 ### 1. **Login - Connexion**
    The login functionality allows users to authenticate themselves by entering their username and password. The credentials are validated against the stored data in the MongoDB database, ensuring a secure login process. 
+   
 ![login](https://github.com/user-attachments/assets/7fc29d7b-7150-4c17-968f-a1c352702936)
 
-![login](https://github.com/user-attachments/assets/0a3b6d13-36c6-4386-b083-f33f0bb98e9d)
+![login1](https://github.com/user-attachments/assets/54bb31ec-976b-46b3-bf82-9a51141ab2d4)
+
 
 
 ### 2. **Sign Up - Inscription**
    Users can create a new account by providing their username, email, age, and a secure password. The system validates the entered data before storing it in the MongoDB database.
+   
    ![sign up](https://github.com/user-attachments/assets/a1365062-daec-43ba-9d76-066b33c6d398)
 
 
 ### 3. **Profile - Profil Utilisateur**
    Each user has a personal profile where they can view and update their information, such as their username, email, and age. Access to the profile is protected and only available after successful authentication.
+   
    ![profile](https://github.com/user-attachments/assets/91c4e125-6114-4daf-8ffc-b58fdaffa172)
+   
    ![profile1](https://github.com/user-attachments/assets/49dcad9a-1a3d-438d-855b-19609f6d8134)
+   
    ![profile2](https://github.com/user-attachments/assets/a45d296b-0010-4c5b-a0d5-3252c69952c6)
 
 
 ### 4. **Update Profile - Mise à jour des informations**
    Users can edit their profile information (name, email, age). The updated details are saved in the database and reflected in real-time on the user’s profile.
    ![motpasse](https://github.com/user-attachments/assets/cc06a80e-b898-47ce-910e-cbca73dffd75)
+   
    ![passe](https://github.com/user-attachments/assets/75d32ee6-7cdd-4f13-a61b-0cb9f6fcd953)
 
 
