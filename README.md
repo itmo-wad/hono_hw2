@@ -58,22 +58,8 @@ A virtual environment (`venv`) is an isolated environment where all the dependen
 
 Now you can access the application at http://localhost:5000.
 
+![image](https://github.com/user-attachments/assets/9c0e882e-8707-4176-9ec8-840364e31513)
 
-
-### Folder structure
-my-application/
-├── app.py               # Main Flask application file
-├── static/
-│   ├── style.css        # Custom styles
-│   ├── images/
-│   ├── uploads/          # Image assets (e.g., avatar images)
-├── templates/
-│   ├── registration.html       # registration template
-│   ├── login.html       # Login page template
-│   ├── profile.html     # Profile page template
-│   ├── update_prof.html      # update template
-├── requirements.txt     # List of Python dependencies
-└── README.md            # Project documentation
 
 ### 1. **Login - Connexion**
    The login functionality allows users to authenticate themselves by entering their username and password. The credentials are validated against the stored data in the MongoDB database, ensuring a secure login process. 
